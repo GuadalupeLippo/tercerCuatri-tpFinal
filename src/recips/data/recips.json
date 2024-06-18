@@ -1,0 +1,183 @@
+{ 
+    "recips":
+    [
+        {
+        "id": "dcdd0fad-a94c-4810-8acc-5f108d3b18c3",
+        "name": "Tortilla de Patatas",
+        "image": "https://img.freepik.com/foto-gratis/alto-angulo-delicioso-plato-tortilla-espanola_23-2150165664.jpg?t=st=1718069845~exp=1718073445~hmac=c272afb6938802dc501e775881abd42d4c8de9ce039c64a0f5494d3fc5e0565f&w=360",
+        "ingredients": ["Patatas", "Huevos", "Cebolla", "Aceite de oliva", "Sal"],
+        "instructions": "Pelar y cortar las patatas y cebollas. Freírlas en aceite de oliva. Batir los huevos y mezclarlos con las patatas y cebollas. Cocinar a fuego medio hasta que cuaje.",
+        "cooking_time": "30 minutos"
+        },
+        {
+        "id": "c8a7d63f-3b04-44d3-9d95-8782fd7dcfaf",
+        "name": "Gazpacho",
+        "image": "https://img.freepik.com/foto-gratis/sopa-gazpacho-espanol-tradicional-tazon-sobre-fondo-azul_123827-25481.jpg?t=st=1718069968~exp=1718073568~hmac=bdc5e0e2f9b466cd65849a65b5b73040b4d004377dfa722150110c5612c1bb16&w=900",
+        "ingredients": ["Tomates", "Pepino", "Pimiento verde", "Cebolla", "Ajo", "Aceite de oliva", "Vinagre", "Sal"],
+        "instructions": "Lavar y cortar los ingredientes. Licuar todo junto con aceite de oliva, vinagre y sal. Enfriar en la nevera antes de servir.",
+        "cooking_time": "15 minutos"
+        },
+        {
+        "id": "5ad1a235-0d9c-410a-b32b-220d91689a08",
+        "name": "Paella",
+        "image": "https://img.freepik.com/foto-gratis/cerca-deliciosa-comida-espanola_23-2149210892.jpg?t=st=1718070088~exp=1718073688~hmac=e61e393ed7c5e53a56e2d07aabd088aa1abf9f6efbf8210b5334f7fe158612c8&w=360",
+        "ingredients": ["Arroz", "Pollo", "Conejo", "Judías verdes", "Tomate", "Aceite de oliva", "Azafrán", "Sal"],
+        "instructions": "Sofreír el pollo y el conejo en aceite de oliva. Añadir las judías verdes y el tomate rallado. Añadir el arroz, el azafrán y el agua. Cocinar a fuego alto primero y luego a fuego lento.",
+        "cooking_time": "50 minutos"
+        },
+        {
+        "id": "241bf55d-b649-4109-af7c-0e6890ded3fc",
+        "name": "Croquetas de Jamón",
+        "image": "https://img.freepik.com/foto-gratis/comida-que-contiene-croquetas-tocino-espinacas_23-2149306682.jpg?t=st=1718070149~exp=1718073749~hmac=ea599e3e5fcb236c32095b01b4662a81c25ab46d503036ab7dcfe88db49b5d97&w=360",
+        "ingredients": ["Leche", "Harina", "Mantequilla", "Jamón", "Nuez moscada", "Pan rallado", "Huevos", "Sal", "Aceite para freír"],
+        "instructions": "Derretir la mantequilla y añadir la harina. Cocinar hasta que dore. Añadir la leche y cocinar hasta obtener una bechamel espesa. Añadir el jamón picado y la nuez moscada. Dejar enfriar, formar croquetas, rebozar en huevo y pan rallado, y freír.",
+        "cooking_time": "40 minutos"
+        },
+        {
+        "id": "9e6106f0-848b-4810-a11a-3d832a5610f9",
+        "name": "Churros",
+        "image": "https://img.freepik.com/foto-gratis/pila-postres-comida-refrigerio-gourmet-frescura-dulce-cerrar-ia-generativa_188544-12213.jpg?t=st=1718070185~exp=1718073785~hmac=1ff995c8cc2486f0d29dced37b7e42e0f48818190a5c346fa5b4eba50c88aeb7&w=1060",
+        "ingredients": ["Harina", "Agua", "Sal", "Aceite para freír", "Azúcar"],
+        "instructions": "Hervir el agua con sal. Añadir la harina y remover hasta obtener una masa homogénea. Colocar la masa en una churrera y freír en aceite caliente. Espolvorear con azúcar antes de servir.",
+        "cooking_time": "25 minutos"
+        },
+        {
+        "id": "aa391090-b938-42eb-b520-86ea0aa3917b",
+        "name": "Pulpo a la Gallega",
+        "image": "https://img.freepik.com/fotos-premium/ensalada-pulpo-rodajas-limon_95419-2417.jpg?w=360",
+        "ingredients": ["Pulpo", "Patatas", "Aceite de oliva", "Pimentón", "Sal gruesa"],
+        "instructions": "Cocer el pulpo y las patatas por separado. Cortar el pulpo en rodajas y las patatas en rodajas gruesas. Colocar el pulpo sobre las patatas, rociar con aceite de oliva, pimentón y sal gruesa.",
+        "cooking_time": "1 hora"
+        },
+        {
+        "id": "04986507-b3ed-442c-8ae7-4c5df804f896",
+        "name": "Cochinillo Asado",
+        "image": "https://img.freepik.com/fotos-premium/delicioso-jugoso-filete-carne-o-pollo-especias-saladas-hierbas_1158591-4605.jpg?w=360",
+        "ingredients": ["Cochinillo", "Sal", "Agua", "Aceite de oliva"],
+        "instructions": "Precalentar el horno a 180°C. Colocar el cochinillo en una bandeja de horno con un poco de agua y aceite. Asar durante 2 horas, rociando ocasionalmente con sus jugos.",
+        "cooking_time": "2 horas"
+        },
+        {
+        "id": "7d2832f8-c70a-410e-8963-4c93bf36cc9c",
+        "name": "Pimientos Rellenos",
+        "image": "https://img.freepik.com/foto-gratis/vista-frontal-deliciosos-pimientos-plato-cocido-carne-sobre-fondo-oscuro-plato-cena-hornear-carne-comida-sal_140725-115601.jpg?t=st=1718070693~exp=1718074293~hmac=b4c2b1ee00d459163c77a9657b2d2a02d69fd7db6e4d8050a5177fe4673dd20b&w=900",
+        "ingredients": ["Pimientos rojos", "Carne picada", "Arroz", "Cebolla", "Ajo", "Tomate", "Aceite de oliva", "Sal", "Pimienta"],
+        "instructions": "Cortar la parte superior de los pimientos y quitar las semillas. Sofreír la cebolla y el ajo en aceite de oliva, añadir la carne picada y el tomate, cocinar hasta que la carne esté hecha. Mezclar con arroz cocido. Rellenar los pimientos con la mezcla y hornear durante 30 minutos.",
+        "cooking_time": "1 hora"
+        },
+        {
+        "id": "ccf36f2e-8566-47f7-912d-9f4647250bc7",
+        "name": "Cordero Asado",
+        "image": "https://img.freepik.com/foto-gratis/tablero-madera-alto-angulo-carne-cocida_23-2148599799.jpg?t=st=1718070825~exp=1718074425~hmac=6d576078d08985bcb162dd15533b9c9db9b9f232a91aed3a5a0b44e805710d57&w=360",
+        "ingredients": ["Pierna de cordero", "Ajo", "Romero", "Aceite de oliva", "Sal", "Pimienta"],
+        "instructions": "Precalentar el horno a 200°C. Frotar la pierna de cordero con ajo, romero, sal y pimienta. Colocar en una bandeja de horno y asar durante 1 hora y media, rociando ocasionalmente con sus jugos.",
+        "cooking_time": "1 hora 30 minutos"
+        },
+        {
+        "id": "8fb17ae1-bdfe-45e5-a871-4772d7e526b8",
+        "name": "Sopa de Ajo",
+        "image": "https://img.freepik.com/foto-gratis/vista-frontal-dovga-plato-menta-seca-dentro-plato-blanco-junto-panes-pan-huevos-flores-sobre-mesa-sopa-liquido-caliente-sobre-escritorio-gris_140725-15935.jpg?t=st=1718070866~exp=1718074466~hmac=88451f98296be8bbdf84c9c03b0e9d7a90caac72a1709186093e8b68ce16f79a&w=360",
+        "ingredients": ["Ajo", "Pan duro", "Pimentón", "Caldo de pollo", "Aceite de oliva", "Huevos", "Sal"],
+        "instructions": "Sofreír el ajo en aceite de oliva. Añadir el pan cortado en rebanadas y el pimentón. Añadir el caldo de pollo y cocinar a fuego lento. Añadir los huevos y cocinar hasta que cuajen.",
+        "cooking_time": "20 minutos"
+        },
+        {
+        "id": "6a360a18-c645-4b47-9a7b-2a71babbf3e0",
+        "name": "Merluza a la Gallega",
+        "image": "https://img.freepik.com/foto-gratis/composicion-pescado-crudo-cocinar_23-2148950189.jpg?t=st=1718070933~exp=1718074533~hmac=c92c7f4780b5dda0c7fa6af3a4451617ed5e9bc76e8d541dbc3e66d2f650d61d&w=360",
+        "ingredients": ["Merluza", "Patatas", "Cebolla", "Ajo", "Pimentón", "Aceite de oliva", "Laurel", "Sal"],
+        "instructions": "Cocer las patatas con la cebolla y el laurel. Añadir la merluza y cocinar hasta que esté hecha. Sofreír el ajo en aceite de oliva, añadir el pimentón y verter sobre la merluza y las patatas.",
+        "cooking_time": "30 minutos"
+        },
+        {
+        "id": "0328f16e-6ad4-4764-b8f0-2d7a5d4f5cb1",
+        "name": "Empanada Gallega",
+        "image": "https://i.blogs.es/9e550f/empanada-gallega/1366_2000.jpg",
+        "ingredients": ["Masa de empanada", "Atún", "Cebolla", "Pimiento rojo", "Pimiento verde", "Tomate", "Aceite de oliva", "Sal"],
+        "instructions": "Sofreír la cebolla y los pimientos en aceite de oliva. Añadir el tomate y el atún, cocinar hasta que todo esté tierno. Extender la masa de empanada, rellenar con la mezcla y cubrir con otra capa de masa. Hornear a 180°C durante 45 minutos.",
+        "cooking_time": "1 hora"
+        },
+        {
+        "id": "8398ac38-e411-4513-bb9f-f3c78d054130",
+        "name": "Huevos Rotos",
+        "image": "https://www.aceitesdeolivadeespana.com/wp-content/uploads/2024/03/huevos-rotos-con-jamon.png",
+        "ingredients": ["Huevos", "Patatas", "Jamón serrano", "Aceite de oliva", "Sal"],
+        "instructions": "Freír las patatas en aceite de oliva. Freír los huevos en el mismo aceite. Colocar las patatas en un plato, añadir los huevos encima y romperlos. Añadir el jamón serrano por encima.",
+        "cooking_time": "25 minutos"
+        },
+        {
+        "id": "68ca6d6c-f326-4ca4-a7e7-0c0bfb92413e",
+        "name": "Calamares a la Romana",
+        "image": "https://img.freepik.com/foto-gratis/anillo-calamari_1203-7802.jpg?t=st=1718071446~exp=1718075046~hmac=2a9cdcbfe5654138021df4aa1add52443e72c64046f13dd4b4984e14f45a84ba&w=360",
+        "ingredients": ["Calamares", "Harina", "Huevos", "Aceite para freír", "Sal"],
+        "instructions": "Limpiar los calamares y cortarlos en anillos. Pasar por harina y huevo batido. Freír en aceite caliente hasta que estén dorados. Escurrir y sazonar con sal.",
+        "cooking_time": "20 minutos"
+        },
+        {
+        "id": "02f15f52-fa0f-4d1d-a62c-2d35a197ca17",
+        "name": "Arroz con Leche",
+        "image": "https://delicooks.com/wp-content/uploads/2021/02/recetas-arroz-con-leche-con-naranja-y-limon.jpg",
+        "ingredients": ["Arroz", "Leche", "Azúcar", "Canela", "Corteza de limón"],
+        "instructions": "Cocer el arroz en agua. Cuando esté casi cocido, añadir la leche, el azúcar, la canela y la corteza de limón. Cocinar a fuego lento hasta que esté cremoso.",
+        "cooking_time": "1 hora"
+        },
+        {
+        "id": "a961e1e1-7a5e-4cb1-a697-7d3bf8dcf80d",
+        "name": "Flan de Huevo",
+        "image": "https://img.freepik.com/foto-gratis/pudin-crema-caramelo_74190-1271.jpg?t=st=1718071673~exp=1718075273~hmac=2058dd7eb3c59365fe4aeeccb422f4941e6cc74c49d81494e7b76aeab8ba7d9c&w=360",
+        "ingredients": ["Leche", "Huevos", "Azúcar", "Caramelo"],
+        "instructions": "Batir los huevos con el azúcar. Añadir la leche y mezclar bien. Verter en moldes con caramelo en el fondo. Cocer al baño maría hasta que cuajen.",
+        "cooking_time": "1 hora"
+        },
+        {
+        "id": "1bfbe6c4-ec44-4943-ba43-6b53e83047d7",
+        "name": "Cazuela de Mariscos",
+        "image": "https://img.freepik.com/foto-gratis/sopa-picante-gambas_74190-4809.jpg?t=st=1718071704~exp=1718075304~hmac=caca89b7eaae7348a1f255ca5cd1750cbde28f0d29c57762e6a8dbd32a225944&w=360",
+        "ingredients": ["Mejillones", "Almejas", "Gambas", "Calamares", "Tomate", "Cebolla", "Ajo", "Aceite de oliva", "Vino blanco", "Perejil", "Sal"],
+        "instructions": "Sofreír la cebolla y el ajo en aceite de oliva. Añadir el tomate y cocinar hasta que se reduzca. Añadir el vino blanco y los mariscos, cocinar hasta que se abran. Sazonar con sal y perejil.",
+        "cooking_time": "35 minutos"
+        },
+        {
+        "id": "fe68c8bb-fd88-4525-98f4-1bc27eeaf40b",
+        "name": "Tarta de Santiago",
+        "image": "https://www.paulinacocina.net/wp-content/uploads/2023/05/receta-tarta-de-santiago-original.jpg",
+        "ingredients": ["Almendra molida", "Huevos", "Azúcar", "Ralladura de limón", "Canela"],
+        "instructions": "Mezclar todos los ingredientes hasta obtener una masa homogénea. Verter en un molde y hornear a 180°C durante 30 minutos. Espolvorear con azúcar glas antes de servir.",
+        "cooking_time": "40 minutos"
+        },
+        {
+        "id": "1234-abcd",
+        "name": "Cocido Madrileño",
+        "image": "https://www.paulinacocina.net/wp-content/uploads/2023/03/cocido-madrilen%CC%83o.jpg",
+        "ingredients": ["Garbanzos", "Carne de ternera", "Carne de cerdo", "Chorizo", "Morcilla", "Patatas", "Repollo", "Zanahorias", "Ajo", "Cebolla", "Sal"],
+        "instructions": "Remojar los garbanzos la noche anterior. Cocer la carne de ternera y cerdo en agua. Añadir los garbanzos y cocinar hasta que estén tiernos. Añadir el chorizo, la morcilla, las patatas, el repollo y las zanahorias, cocinar hasta que estén tiernos.",
+        "cooking_time": "2 horas"
+        },
+        {
+            "id": "5678-efgh",
+            "name": "Torrijas",
+            "image": "https://img.freepik.com/foto-gratis/tipicas-torrijas-pascua-espana_181624-61340.jpg?t=st=1718071908~exp=1718075508~hmac=c7f9080eccdd02948022cee0cb6a66f4b984e1425b9c8f340d64ac5847fbe97c&w=900",
+            "ingredients": ["Pan duro", "Leche", "Huevos", "Azúcar", "Canela", "Aceite para freír"],
+            "instructions": "Remojar el pan en leche. Pasar por huevo batido y freír en aceite caliente hasta que estén doradas. Espolvorear con azúcar y canela.",
+            "cooking_time": "20 minutos"
+        },
+        {
+            "id": "9101-ijkl",
+            "name": "Salmón a la Plancha",
+            "image": "https://img.freepik.com/foto-gratis/pescado-parrilla-zanahoria-brocoli-granada-limon-vista-lateral_141793-3135.jpg?t=st=1718071945~exp=1718075545~hmac=c47d930355b5af2b8c2ac6cb4c1934d40b68379f604c5c2148c78173d6b6fb88&w=360",
+            "ingredients": ["Salmón", "Aceite de oliva", "Sal", "Pimienta"],
+            "instructions": "Calentar una plancha con un poco de aceite de oliva. Colocar el salmón y cocinar unos minutos por cada lado hasta que esté dorado. Sazonar con sal y pimienta.",
+            "cooking_time": "15 minutos"
+          },
+          {
+            "id":"1121-mnop",
+            "name": "Tarta de Queso",
+            "image": "https://img.freepik.com/foto-gratis/primer-plano-vertical-tarta-queso-fresa-placa-blanca_181624-20671.jpg?t=st=1718072136~exp=1718075736~hmac=35fc20fa636a311cb70c3656296f6a30808c2ce2ba99612deb79c1ad8a8f33f5&w=360",
+            "ingredients": ["Queso crema", "Azúcar", "Huevos", "Nata", "Galletas", "Mantequilla"],
+            "instructions": "Triturar las galletas y mezclar con mantequilla derretida. Presionar en el fondo de un molde. Batir el queso crema con el azúcar, los huevos y la nata. Verter sobre la base de galletas y hornear a 180°C durante 45 minutos.",
+            "cooking_time": "1 hora"
+          }
+    ]
+}
+  
+  
