@@ -1,0 +1,42 @@
+
+.recip-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    box-shadow: 0 1 10  rgb(0,0,0,0.2);
+}
+
+  .recip-card .recip-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  h4 {
+    font-family: 'Playfair Display', serif;
+    text-shadow: 2px 2px 4px rgba(61, 61, 61, 0.5);
+  }
+  
+  .recip-card .card-body .mt-auto {
+    margin-top: auto;
+  }
+  
+  
+  .button-container .button {
+    width: 80px; 
+    height: 36px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+  .recip-cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 10px;
+    margin: 20px;
+  }
+  
