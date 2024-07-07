@@ -12,22 +12,13 @@
         "Sal"
       ],
       "instructions": "Pelar y cortar las patatas y cebollas. Freírlas en aceite de oliva. Batir los huevos y mezclarlos con las patatas y cebollas. Cocinar a fuego medio hasta que cuaje.",
-      "cooking_time": "30 minutos"
+      "cooking_time": "30 mayonesas"
     },
     {
       "id": "c8a7d63f-3b04-44d3-9d95-8782fd7dcfaf",
-      "name": "Gazpacho",
+      "name": "Salsa de tomate",
       "image": "https://img.freepik.com/foto-gratis/sopa-gazpacho-espanol-tradicional-tazon-sobre-fondo-azul_123827-25481.jpg?t=st=1718069968~exp=1718073568~hmac=bdc5e0e2f9b466cd65849a65b5b73040b4d004377dfa722150110c5612c1bb16&w=900",
-      "ingredients": [
-        "Tomates",
-        "Pepino",
-        "Pimiento verde",
-        "Cebolla",
-        "Ajo",
-        "Aceite de oliva",
-        "Vinagre",
-        "Sal"
-      ],
+      "ingredients": "Tomates,Pepino,Pimiento verde,Cebolla,Ajo,Aceite de oliva,Vinagre,Sal,vino",
       "instructions": "Lavar y cortar los ingredientes. Licuar todo junto con aceite de oliva, vinagre y sal. Enfriar en la nevera antes de servir.",
       "cooking_time": "15 minutos"
     },
@@ -343,14 +334,6 @@
       "cooking_time": "60 minutos"
     },
     {
-      "id": "e3e6",
-      "name": "papas fritas",
-      "image": "",
-      "ingredients": "[papas,aceite]",
-      "instructions": "cortar las papas y freirlas",
-      "cooking_time": "15min"
-    },
-    {
       "id": "7e25",
       "name": "sopa",
       "image": "https://media.istockphoto.com/id/494154858/es/foto/sopa-espesa-de-ma%C3%ADz-casera-con-opciones-fr%C3%ADas-y-calientes.jpg?s=1024x1024&w=is&k=20&c=K-MYHakpnoITX1TIdXEh9Gth0ck9G_-CADmkFhgpMW0=",
@@ -363,6 +346,26 @@
       ],
       "instructions": "hervir el agua con el caldo y las verduras, una vez que esten cocinadas agregar los fideos hasta que se cocinen. ",
       "cooking_time": "35 minutos"
+    },
+    {
+      "id": "5e7d",
+      "name": "Papas a la crema",
+      "image": "https://www.tregar.com.ar/wp-content/uploads/2024/02/Portada_Recetas_papas-a-la-crema.jpg",
+      "ingredients": [
+        "4 papas",
+        "2 cebollas",
+        "1 caldito de verduras",
+        "400 gr. de crema de leche",
+        "100 gr. de queso cremoso",
+        "80 gr. de manteca",
+        "Nuez moscada",
+        "Sal",
+        "Pimienta",
+        "Perejil fresco a gusto",
+        ""
+      ],
+      "instructions": "Pelar las papas y Cortarlas en rodajas muy finas y a medida que las vas cortando regresarlas al mismo bowl. Reservar.\nCortar la cebolla en juliana. Reservar. Poner la crema en una ollita a fuego bajo, agregar la nuez moscada y el caldo de verduras. Una vez que este todo integrado apagar y reservar.\nAhora en una fuente apta para horno, vamos intercalando capas empezando con manteca, una capa de papas, una de cebolla, crema, cubos de queso cremoso, sal y pimienta. Repetimos las capas hasta llenar el molde, la ultima capa debe ser de papa.Para terminar, agregar la crema que haya quedado y espolvorear con reggianito rallado.\nLlevar al horno a 180*C. ",
+      "cooking_time": "40 minutos"
     }
   ]
 }
