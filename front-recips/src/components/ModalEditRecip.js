@@ -3,6 +3,7 @@ import { Button, Modal, Form } from 'react-bootstrap';
 import { API } from '../API/getRecips';
 import { useEffect } from 'react';
 
+
 const updateRecip = async (id, updatedFields) => {
   try {
     const response = await fetch(`${API}/recips/${id}`, {
@@ -52,11 +53,13 @@ function EditRecipeModal({ showModal, handleCloseModal, recip, updateRecipInCard
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setUpdatedFields({
-      ...updatedFields,
-      [name]: value,
-    });
+      setUpdatedFields({
+        ...updatedFields,
+        [name]: value,
+      });
+    
   };
+  
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -89,7 +92,7 @@ function EditRecipeModal({ showModal, handleCloseModal, recip, updateRecipInCard
             <Form.Control
               as="textarea"
               name="ingredients"
-              value={updatedFields.ingredients}
+              value={recip.ingredients}
               onChange={handleChange}
               required
             />

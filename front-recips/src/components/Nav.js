@@ -1,4 +1,4 @@
-import Button from 'react-bootstrap/Button';
+import { Button } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import { useState } from 'react';
 import Form from 'react-bootstrap/Form';
@@ -7,20 +7,32 @@ import Navbar from 'react-bootstrap/Navbar';
 import logo from '../assets/libro-de-cocina.png';
 import '../Styles/NavStyle.css'
 import ModalNewRecip from './ModalNewRecip';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; 
-import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
-function NavRecip({addRecip}) {
+function NavRecip({addRecip, filterRecipByName}) {
   const [showModal, setShowModal] = useState(false);
 
   const handleCloseModal = () => setShowModal(false);
   const handleShowModal = () => setShowModal(true);
 
+  const [search, setSearch]= useState([]);
+
+  const onSearchChange = (e) => {
+    console.log(e.target.value)
+    setSearch(e.target.value)
+    };
+
+    const onSearch = () => {
+      filterRecipByName(search);
+    };
+
+
   return (
     <>
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
-        <Navbar.Brand href="#">
+        <Navbar.Brand href="/recips">
             <img src={logo} alt='logo de cocina' width='50px'/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -39,11 +51,14 @@ function NavRecip({addRecip}) {
               placeholder="Buscar receta"
               className=" me-2 custom-input"
               aria-label="Search"
-            />
-            <Button variant="outline-dark">
-              <FontAwesomeIcon icon={faMagnifyingGlass} />
-            </Button>
+              value= {search}
+              onChange={onSearchChange}
+             />
+              <Button variant="outline-secondary" onClick={onSearch}>
+                <FontAwesomeIcon icon={faSearch} />
+              </Button>
           </Form>
+
         </Navbar.Collapse>
       </Container>
     </Navbar>

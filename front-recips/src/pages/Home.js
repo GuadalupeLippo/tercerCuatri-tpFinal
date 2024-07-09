@@ -9,18 +9,28 @@ import { API } from '../API/getRecips';
 
 export default function Home() { 
     const [recip, setRecip] = useState([]);
+    const [filteredRecips, setFilteredRecips] = useState([]);
     
+
 
     useEffect(()=>{
       getRecips()
       .then((res)=> res.json())
-      .then((data)=> setRecip(data))
+      .then((data)=> {
+        setRecip(data);
+        setFilteredRecips(data);}
+    )
     },[])
+
   
+
+
     //esta funcion la utilizo para no refrescar la pagina,ni bien se crea una nueva receta se adhiere a las demas recetas por pantalla.
     //se la paso al modal
     const addRecip = (newRecip) => {
-        setRecip([...recip, newRecip]);
+        const updatedRecips = [...filteredRecips, newRecip];
+        setRecip(updatedRecips);
+        setFilteredRecips(updatedRecips);
       };
 
     const deleteRecipe = async (id) => {
@@ -30,8 +40,10 @@ export default function Home() {
           });
     
           if (res.ok) {
-            setRecip(recip.filter(recip => recip.id !== id));
+            const updatedRecip = recip.filter(recip => recip.id !== id);
             console.log('Recipe deleted successfully');
+            setRecip(updatedRecip);
+            setFilteredRecips(updatedRecip);
           } else {
             console.error('Failed to delete recipe');
           }
@@ -41,28 +53,38 @@ export default function Home() {
       };
       
       const updateRecipInCards = (updatedRecip) => {
-        setRecip((prevRecip) => 
-           prevRecip.map((recip) =>
-             recip.id === updatedRecip.id ? updatedRecip : recip
-           )
-         );
-       };
+        const updatedRecips = recip.map((recip) =>
+          recip.id === updatedRecip.id ? updatedRecip : recip
+        );
+        setRecip(updatedRecips);
+        setFilteredRecips(updatedRecips); // también actualizar filteredRecips
+      };
+      
+
+       const filterRecipByName = (searchTerm) => {
+        const filtered = recip.filter(recip =>
+          recip.name.toLowerCase().includes(searchTerm.toLowerCase())
+        );
+        setFilteredRecips(filtered);
+      };
+
       
 
   return (
     <div>
-        <NavRecip addRecip={addRecip}/>
+        <NavRecip addRecip={addRecip} filterRecipByName={filterRecipByName}/>
         <header className='text-center my-5'>
           <h2 className='title'>Libro de recetas</h2>
         </header>
         <div className="recip-cards-container">
-          {recip.length > 0 ? (
-          recip.map((recip) => <CardRecip recip={recip} key={recip.id} deleteRecipe={deleteRecipe} updateRecipInCards={updateRecipInCards}/>)
+          {filteredRecips.length > 0 ? (
+           filteredRecips.map((recip) => <CardRecip recip={recip} filteredRecips={filteredRecips}  key={recip.id} deleteRecipe={deleteRecipe} updateRecipInCards={updateRecipInCards}/>)
           ) : (
           <p>No recipes found</p>
           )}
+           
         </div>
-       
+
     </div>
   )
 }
