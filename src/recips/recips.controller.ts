@@ -14,16 +14,16 @@ export class RecipsController {
   async findAllRecips(): Promise<iRecips[]> {
     return await this.recipsService.findAllRecips();
   }
-  
+  @Get('search/')
+  async getRecipByName(@Query('name') nameRecip: string): Promise<iRecips[]> {
+      return await this.recipsService.getRecipByName(nameRecip);
+  }
   @Get(':id')
   async findOneRecip(@Param('id', AlphanumericPipe) id: string) : Promise<iRecips[]>  {
      return this.recipsService.findOneRecip(id);
   }
 
-  @Get('search/name')
-  async getRecipByName(@Query('name') nameRecip: string): Promise<iRecips[]> {
-      return await this.recipsService.getRecipByName(nameRecip);
-  }
+  
   @Post()
   async create(@Body() CreateRecipDto: CreateRecipDto) : Promise<iRecips[]> {
     return await this.recipsService.create(CreateRecipDto);

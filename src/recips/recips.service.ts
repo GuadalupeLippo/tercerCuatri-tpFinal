@@ -82,10 +82,14 @@ export class RecipsService {
   }
 
   async removeRecip(id: string): Promise<iRecips[]>  {
-    const resp= await fetch(base_url+id,{
+    
+      const isRecips = await this.findOneRecip(id);
+      if (!Object.keys(isRecips).length) return;
+      const resp= await fetch(base_url+id,{
       method:'DELETE',
     });
     const parsedRes= resp.json();
     return parsedRes;
-  }
+    }
+    
 }

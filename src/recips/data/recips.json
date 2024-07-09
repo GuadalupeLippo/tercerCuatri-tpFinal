@@ -2,7 +2,7 @@
   "recips": [
     {
       "id": "dcdd0fad-a94c-4810-8acc-5f108d3b18c3",
-      "name": "Tortilla de Patatas",
+      "name": "Tortilla de Papitas  grandes",
       "image": "https://img.freepik.com/foto-gratis/alto-angulo-delicioso-plato-tortilla-espanola_23-2150165664.jpg?t=st=1718069845~exp=1718073445~hmac=c272afb6938802dc501e775881abd42d4c8de9ce039c64a0f5494d3fc5e0565f&w=360",
       "ingredients": [
         "Patatas",
@@ -12,13 +12,13 @@
         "Sal"
       ],
       "instructions": "Pelar y cortar las patatas y cebollas. Freírlas en aceite de oliva. Batir los huevos y mezclarlos con las patatas y cebollas. Cocinar a fuego medio hasta que cuaje.",
-      "cooking_time": "30 mayonesas"
+      "cooking_time": "30 minutos"
     },
     {
       "id": "c8a7d63f-3b04-44d3-9d95-8782fd7dcfaf",
       "name": "Salsa de tomate",
       "image": "https://img.freepik.com/foto-gratis/sopa-gazpacho-espanol-tradicional-tazon-sobre-fondo-azul_123827-25481.jpg?t=st=1718069968~exp=1718073568~hmac=bdc5e0e2f9b466cd65849a65b5b73040b4d004377dfa722150110c5612c1bb16&w=900",
-      "ingredients": "Tomates,Pepino,Pimiento verde,Cebolla,Ajo,Aceite de oliva,Vinagre,Sal,vino",
+      "ingredients": "Tomates,Pepino,Pimiento verde,Cebolla,Ajo,Aceite de oliva,Vinagre,Sal",
       "instructions": "Lavar y cortar los ingredientes. Licuar todo junto con aceite de oliva, vinagre y sal. Enfriar en la nevera antes de servir.",
       "cooking_time": "15 minutos"
     },
@@ -75,13 +75,7 @@
       "id": "aa391090-b938-42eb-b520-86ea0aa3917b",
       "name": "Pulpo a la Gallega",
       "image": "https://img.freepik.com/fotos-premium/ensalada-pulpo-rodajas-limon_95419-2417.jpg?w=360",
-      "ingredients": [
-        "Pulpo",
-        "Patatas",
-        "Aceite de oliva",
-        "Pimentón",
-        "Sal gruesa"
-      ],
+      "ingredients": "Pulpo,Patatas,Aceite de oliva,Pimentón,Sal gruesa, agua",
       "instructions": "Cocer el pulpo y las patatas por separado. Cortar el pulpo en rodajas y las patatas en rodajas gruesas. Colocar el pulpo sobre las patatas, rociar con aceite de oliva, pimentón y sal gruesa.",
       "cooking_time": "1 hora"
     },
@@ -238,7 +232,7 @@
     },
     {
       "id": "1bfbe6c4-ec44-4943-ba43-6b53e83047d7",
-      "name": "Cazuela de Mariscos",
+      "name": "tarta de choclo",
       "image": "https://img.freepik.com/foto-gratis/sopa-picante-gambas_74190-4809.jpg?t=st=1718071704~exp=1718075304~hmac=caca89b7eaae7348a1f255ca5cd1750cbde28f0d29c57762e6a8dbd32a225944&w=360",
       "ingredients": [
         "Mejillones",
@@ -254,7 +248,7 @@
         "Sal"
       ],
       "instructions": "Sofreír la cebolla y el ajo en aceite de oliva. Añadir el tomate y cocinar hasta que se reduzca. Añadir el vino blanco y los mariscos, cocinar hasta que se abran. Sazonar con sal y perejil.",
-      "cooking_time": "35 minutos"
+      "cooking_time": "60 minutos"
     },
     {
       "id": "fe68c8bb-fd88-4525-98f4-1bc27eeaf40b",
@@ -304,68 +298,6 @@
       ],
       "instructions": "Remojar el pan en leche. Pasar por huevo batido y freír en aceite caliente hasta que estén doradas. Espolvorear con azúcar y canela.",
       "cooking_time": "20 minutos"
-    },
-    {
-      "id": "9101-ijkl",
-      "name": "Salmón a la Plancha",
-      "image": "https://img.freepik.com/foto-gratis/pescado-parrilla-zanahoria-brocoli-granada-limon-vista-lateral_141793-3135.jpg?t=st=1718071945~exp=1718075545~hmac=c47d930355b5af2b8c2ac6cb4c1934d40b68379f604c5c2148c78173d6b6fb88&w=360",
-      "ingredients": [
-        "Salmón",
-        "Aceite de oliva",
-        "Sal",
-        "Pimienta"
-      ],
-      "instructions": "Calentar una plancha con un poco de aceite de oliva. Colocar el salmón y cocinar unos minutos por cada lado hasta que esté dorado. Sazonar con sal y pimienta.",
-      "cooking_time": "15 minutos"
-    },
-    {
-      "id": "1121-mnop",
-      "name": "tarta de queso",
-      "image": "https://img.freepik.com/foto-gratis/primer-plano-vertical-tarta-queso-fresa-placa-blanca_181624-20671.jpg?t=st=1718072136~exp=1718075736~hmac=35fc20fa636a311cb70c3656296f6a30808c2ce2ba99612deb79c1ad8a8f33f5&w=360",
-      "ingredients": [
-        "Queso crema",
-        "Azúcar",
-        "Huevos",
-        "Nata",
-        "Galletas",
-        "Mantequilla"
-      ],
-      "instructions": "Triturar las galletas y mezclar con mantequilla derretida. Presionar en el fondo de un molde. Batir el queso crema con el azúcar, los huevos y la nata. Verter sobre la base de galletas y hornear a 180°C durante 45 minutos.",
-      "cooking_time": "60 minutos"
-    },
-    {
-      "id": "7e25",
-      "name": "sopa",
-      "image": "https://media.istockphoto.com/id/494154858/es/foto/sopa-espesa-de-ma%C3%ADz-casera-con-opciones-fr%C3%ADas-y-calientes.jpg?s=1024x1024&w=is&k=20&c=K-MYHakpnoITX1TIdXEh9Gth0ck9G_-CADmkFhgpMW0=",
-      "ingredients": [
-        "agua",
-        "caldo de verdura",
-        "fideos",
-        "zapallo",
-        "apio"
-      ],
-      "instructions": "hervir el agua con el caldo y las verduras, una vez que esten cocinadas agregar los fideos hasta que se cocinen. ",
-      "cooking_time": "35 minutos"
-    },
-    {
-      "id": "5e7d",
-      "name": "Papas a la crema",
-      "image": "https://www.tregar.com.ar/wp-content/uploads/2024/02/Portada_Recetas_papas-a-la-crema.jpg",
-      "ingredients": [
-        "4 papas",
-        "2 cebollas",
-        "1 caldito de verduras",
-        "400 gr. de crema de leche",
-        "100 gr. de queso cremoso",
-        "80 gr. de manteca",
-        "Nuez moscada",
-        "Sal",
-        "Pimienta",
-        "Perejil fresco a gusto",
-        ""
-      ],
-      "instructions": "Pelar las papas y Cortarlas en rodajas muy finas y a medida que las vas cortando regresarlas al mismo bowl. Reservar.\nCortar la cebolla en juliana. Reservar. Poner la crema en una ollita a fuego bajo, agregar la nuez moscada y el caldo de verduras. Una vez que este todo integrado apagar y reservar.\nAhora en una fuente apta para horno, vamos intercalando capas empezando con manteca, una capa de papas, una de cebolla, crema, cubos de queso cremoso, sal y pimienta. Repetimos las capas hasta llenar el molde, la ultima capa debe ser de papa.Para terminar, agregar la crema que haya quedado y espolvorear con reggianito rallado.\nLlevar al horno a 180*C. ",
-      "cooking_time": "40 minutos"
     }
   ]
 }
